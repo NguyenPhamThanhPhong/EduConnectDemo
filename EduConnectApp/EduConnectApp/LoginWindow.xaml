@@ -13,6 +13,7 @@
         Height="720" 
         Width="1280"
         Name="LoginWd"
+        AutomationProperties.AutomationId="login-window"
         DataContext="{StaticResource LoginVM}">
     
     

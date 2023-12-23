@@ -14,6 +14,7 @@
         WindowStartupLocation="CenterScreen"
         DataContext="MainViewModel"
         WindowStyle="None"
+        AutomationProperties.AutomationId="main-window"
         x:Name="mainWd"
         >
     <i:Interaction.Triggers>
@@ -124,6 +125,7 @@
 
             <!--Đăng xuất-->
             <Button  
+                AutomationProperties.AutomationId="btn-logout"
                 Command="{Binding navHome}"
                 VerticalAlignment="Bottom"   Background="Transparent" Height="100" BorderBrush="Transparent" >
                 <StackPanel >

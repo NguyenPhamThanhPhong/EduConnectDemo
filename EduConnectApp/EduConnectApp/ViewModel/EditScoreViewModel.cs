@@ -348,7 +348,7 @@ namespace EduConnectApp.ViewModel
         //    }
 
         //}
-        void _UpdateScoreTable_Year(int mahs, int classID)
+        public void _UpdateScoreTable_Year(int mahs, int classID)
         {
             scoreTableList_Year.Clear();
             foreach (MONHOC mh in subjectList)
